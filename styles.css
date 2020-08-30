@@ -13,3 +13,24 @@
 {
 	margin-right: 10%;
 }
+.bg{
+    background: url('bg.jpg');
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    height: 60%;
+   
+    
+}
+.block{
+	background-color: white;
+	margin-bottom: 0px;
+	width: 50%;
+	height:80%;
+	margin-left: 25%;
+	margin-top:5%;
+}
+.text-area{
+	margin-top: 50%;
+	width: 100%;
+}

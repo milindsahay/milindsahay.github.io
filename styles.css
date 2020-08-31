@@ -13,24 +13,73 @@
 {
 	margin-right: 10%;
 }
+
 .bg{
-    background: url('bg.jpg');
+	display: flex;
+	justify-content: center;
+    background: url('images/bg.jpg');
     width: 100%;
     position: absolute;
     left: 0px;
-    height: 60%;
+    height: 50%;
    
     
 }
 .block{
 	background-color: white;
-	margin-bottom: 0px;
 	width: 50%;
-	height:80%;
-	margin-left: 25%;
-	margin-top:5%;
+	height:85%;
+	bottom:-7em;
+	position: relative;
 }
 .text-area{
 	margin-top: 50%;
 	width: 100%;
+}
+#icons
+{
+	background-color: #4e5782; 
+	position: absolute;
+	bottom: 0px;
+	height: 15%;
+	width: 100%;
+}
+.icon-box{
+
+	padding: 0.2em;
+	margin-top: 0.4%;
+	margin-left : 1.5em;
+
+}
+
+.fa {  
+	display: inline-block;
+  	background-color: white;
+  	color: black;	
+  	padding: 0.8em;  
+  	font-size: 0.5em;    
+  	text-decoration: none;
+  	border-radius: 50%;
+}
+.social{
+	 display: flex;
+	 justify-content: center;
+}
+.icon-box :hover{
+	transform: scale(1.1);
+	transition: all 0.2s;
+	color: blue;
+}
+.picture{
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	background-color: green;
+}
+.profile{
+	margin-left: 40%;
+	width: 60%;
+	height: 100%;
+	background-color: red;
+
 }

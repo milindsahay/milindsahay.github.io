@@ -11,7 +11,7 @@
 }
 
 body{
-    /*background: url('images/bg.jpg');*/
+    background: url('images/bg.jpg');
 }
 .contentContainer{
 	position: absolute;
@@ -30,7 +30,7 @@ body{
 .social{
 	position: absolute;
 	/*background-color: red;*/
-	width:100%;
+	width:88%;
 	height: 14%;
 	display: flex;
 	/*background-color: coral;*/
@@ -43,7 +43,7 @@ body{
 }
 .icon-box :hover{
 	color: coral;
-	transform: scale(1.1);
+	transform: scale(1.2);
 	transition: all 0.2s;
 }
 .icon {
@@ -64,7 +64,16 @@ body{
 	width: 100%;
 }
 .container-circle {
-	margin-top: 18%;
-	border: 6px solid #0c8df7;
+	/*border: 6px solid black;*/
 	border-radius: 51%;
+	width: 80%;
+	margin: auto;
+	margin-top: 18%;
+	margin-bottom: 10%;
+}
+.cv-link{
+	padding: 0.7em;
+}
+.my-button{
+	width: 80%;
 }

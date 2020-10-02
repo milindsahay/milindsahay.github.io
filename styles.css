@@ -4,6 +4,13 @@
 /*.navbar{*/
 /*	background-color: #232120;*/
 /*}*/
+
+.nav-link{
+	color: #fff !important;
+}
+.navbar-brand{
+	color:#fff !important;
+}
 .nav-item {
 	font-size: 20px;
 }
@@ -14,28 +21,20 @@
 }
 
 body{
-    background-color: #3D3D3B;
+    background-color: #047BD5;
 	/*background: url('images/bg.jpg');*/
 }
 .contentContainer{
-	position: absolute;
-	display: flex;
-	width:50%;
-	left: 25%;
-	top: 20%;
 	border-radius: 1em;
-	height: 400px;
-	background-color: #181714;
+	background-color: #fff;
 	transform: translateZ(50px);
 	box-shadow: 5px 10px 35px 0px rgba(0,0,0,0.15);
 	padding: 0.8em 2.5em;
 }
 
 .social{
-	position: absolute;
-	/*background-color: red;*/
-	width:88%;
-	height: 14%;
+	padding: 2.5% 0;
+	width:100%;
 	display: flex;
 	/*background-color: coral;*/
 	/*background: url('images/bg.jpg');*/
@@ -51,15 +50,15 @@ body{
 	transition: all 0.2s;
 }
 .icon {
-	color: black;
-	background-color: white;
+	color: #047BD5;
+	background-color: #F8E831;
 	border-radius: 50%;
 	padding:0.8em;
 	width: 2.5em;
 	height: 2.5em;
+	font-size: 1.1em;
 }
 .image-container{
-	width: 35%;
 	height: 86%;
 }
 
@@ -70,39 +69,38 @@ body{
 .container-circle {
 	/*border: 6px solid black;*/
 	border-radius: 51%;
-	width: 80%;
+	width: 70%;
 	margin: auto;
 	margin-top: 18%;
 	margin-bottom: 10%;
 }
 .cv-link{
-	padding: 0.7em;
+	margin-top:10%;
 }
 .my-button{
-	width: 80%;
-	background-color: #dc3545;
+	width: 100%;
+	background-color: #047BD5;
+	border:none !important;
+	padding: 15px 0;
 }
 
 .description{
-	width: 65%;
-	height: 86%;
 	padding: 1.5em;
 }
 .hello{
-	color: #dc3545;
+	color: #047BD5;
 	margin-top: 4%;
-	font-size: 3.5rem;
+	font-size: 3.5em;
+	font-weight: 700;
 }
 .name{
-	margin-left: 10%;
-	font-size: 2.5rem;
-	color: white;
+	margin-top: -2%;
+	font-size: 1.8em;
+	color: #444;
 }
 .job{
-	margin-top: 5%;
-	margin-left: 10%;
-	font-size: 2rem;
-	color: white;
+	font-size: 1.5em;
+	color: #666;
 }
 /*.my-button :hover{*/
 /*	color: black;*/
